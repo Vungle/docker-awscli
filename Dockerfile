@@ -1,4 +1,4 @@
-FROM alpine:3.4
+FROM alpine:3.5
 
 # Default evironment variables.
 ENV AWS_DEFAULT_REGION us-east-1
