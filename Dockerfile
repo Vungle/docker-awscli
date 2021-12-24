@@ -1,9 +1,6 @@
 FROM alpine:3.8
 
 # Default evironment variables.
-ENV AWS_DEFAULT_REGION us-east-1
-ENV AWS_ACCESS_KEY_ID defaultawsaccesskeyid
-ENV AWS_SECRET_ACCESS_KEY defaultawssecretaccesskey
 
 RUN apk add -q --update \
     && apk add -q \

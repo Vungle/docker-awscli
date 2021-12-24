@@ -1,3 +1,7 @@
+# 1.17
+
+Since we use this image in EKS and either the env variables are declared in the helm chart or we assume an IAM role, we don't want to set AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY in the docker image to avoid conflicts with the service account annotation in order to assume an IAM role.
+
 # Docker AWS CLI Image (Docker Hub: vungle/awscli)
 
 Example:
